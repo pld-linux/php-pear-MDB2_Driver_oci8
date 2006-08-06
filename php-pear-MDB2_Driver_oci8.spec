@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		MDB2
 %define		_subclass	Driver_oci8
-%define		_status		alpha
+%define		_status		stable
 %define		_pearname	MDB2_Driver_oci8
 
 Summary:	%{_pearname} - oci8 MDB2 driver
 Summary(pl):	%{_pearname} - sterownik oci8 dla MDB2
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
+Version:	1.0.0
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1b1c50008a9c2ce7a619756769841316
+# Source0-md5:	b9bbf1fc1f946d910550cd339db006ff
 URL:		http://pear.php.net/package/MDB2_Driver_oci8/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
