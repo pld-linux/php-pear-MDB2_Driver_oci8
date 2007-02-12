@@ -5,7 +5,7 @@
 %define		_pearname	MDB2_Driver_oci8
 
 Summary:	%{_pearname} - oci8 MDB2 driver
-Summary(pl):	%{_pearname} - sterownik oci8 dla MDB2
+Summary(pl.UTF-8):   %{_pearname} - sterownik oci8 dla MDB2
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
@@ -30,7 +30,7 @@ This is the Oracle OCI8 MDB2 driver.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Sterownik Oracle OCI8 dla MDB2.
 
 Ta klasa ma w PEAR status: %{_status}.
