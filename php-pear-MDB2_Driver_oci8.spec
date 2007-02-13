@@ -5,7 +5,7 @@
 %define		_pearname	MDB2_Driver_oci8
 
 Summary:	%{_pearname} - oci8 MDB2 driver
-Summary(pl.UTF-8):   %{_pearname} - sterownik oci8 dla MDB2
+Summary(pl.UTF-8):	%{_pearname} - sterownik oci8 dla MDB2
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
