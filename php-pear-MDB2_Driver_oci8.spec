@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		MDB2
 %define		_subclass	Driver_oci8
 %define		_status		stable
